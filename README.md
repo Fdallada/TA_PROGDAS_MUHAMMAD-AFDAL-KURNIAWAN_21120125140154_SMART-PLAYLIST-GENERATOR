@@ -70,35 +70,43 @@ pillow
 speechrecognition
 pyaudio
 
-▶️ Cara Menjalankan Program
+---
+
+## ▶️ Cara Menjalankan Program
+
 python main.py
-
-
 Jika voice command tidak bekerja di Windows, jalankan:
-
 pip install pipwin
 pipwin install pyaudio
 
-📘 How It Works
+---
 
-Pemilih mood, activity, time, genre
-Recommender membuat query → "chill study night music"
-Program memanggil YTMusicAPI.search()
-Data diubah menjadi objek Track
-Playlist ditampilkan di TreeView
+## 📘 How It Works
+
+1. Pemilih mood, activity, time, genre
+2. Recommender membuat query → "chill study night music"
+3. Program memanggil YTMusicAPI.search()
+4. Data diubah menjadi objek Track
+5. Playlist ditampilkan di TreeView
+
 User dapat:
-membuka lagu
-menyimpan playlist
-undo
-menjalankan voice command
+- membuka lagu
+- menyimpan playlist
+- undo
+- redo
+- menjalankan voice command
 
-🧠 Tech Stack
-Komponen	Teknologi
-GUI	Tkinter
-API	ytmusicapi
-Image Processing	Pillow
-Voice Recognition	SpeechRecognition
-Background Task	Threading + Queue
+---
 
-📄 License
+## 🧠 Tech Stack
+- Komponen	Teknologi
+- GUI	Tkinter
+- API	ytmusicapi
+- Image Processing	Pillow
+- Voice Recognition	SpeechRecognition
+- Background Task	Threading + Queue
+
+---
+
+##📄 License
 MIT License — bebas digunakan, dimodifikasi, dan dikembangkan.

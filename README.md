@@ -39,23 +39,6 @@ Menghasilkan playlist berdasarkan kombinasi:
 
 ---
 
-## 📦 Project Structure
-
-SmartPlaylist/
-│── main.py
-│── gui.py
-│── recommender.py
-│── ytm_client.py
-│── models.py
-│── voice_handler.py
-│── requirements.txt
-│── data/
-│ ├── bg_smart_playlist.jpg
-│ ├── cache/
-│ └── saved_playlists/
-
----
-
 ## 🛠 Requirements
 
 - Python **3.10 – 3.12**
@@ -108,5 +91,5 @@ User dapat:
 
 ---
 
-##📄 License
+## 📄 License
 MIT License — bebas digunakan, dimodifikasi, dan dikembangkan.
